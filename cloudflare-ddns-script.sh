@@ -1,8 +1,4 @@
 #!/bin/bash
-# Cloudflare as Dynamic DNS
-# From: https://letswp.io/cloudflare-as-dynamic-dns-raspberry-pi/
-# Based on: https://gist.github.com/benkulbertis/fff10759c2391b6618dd/
-# Original non-RPi article: https://phillymesh.net/2016/02/23/setting-up-dynamic-dns-for-your-registered-domain-through-cloudflare/
 
 # Update these with real values
 auth_email="email@example.com"
