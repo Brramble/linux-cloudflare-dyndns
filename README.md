@@ -8,4 +8,5 @@
 
 # Automation
 
-As dynamic addresses change frequently. It is advised to create a cronjob every 6 hours. Before using a cronjob, ensure the permissions on the file are set to be executable: `chmod +x path/to/directory/cloudflare-ddns-script.sh`.
+As dynamic addresses change frequently. It is advised to create a cronjob every 6 hours. Before using a cronjob, ensure the permissions on the file are set to be executable: `chmod +x path/to/file/cloudflare-ddns-script.sh`. \
+`0 */6 * * * /bin/bash /path/to/file/cloudflare-ddns-script.sh`
